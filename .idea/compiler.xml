@@ -6,15 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="expense-manager" />
+        <module name="Expense-Manager" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Expense-Manager" target="17" />
       <module name="expense-manager" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Expense-Manager" options="-parameters" />
       <module name="expense-manager" options="-parameters" />
     </option>
   </component>
